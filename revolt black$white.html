@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reason in Revolt - Study Guide</title>
+    <style>
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --gray: #e0e0e0;
+        }
+
+        body {
+            font-family: "Courier New", Courier, monospace; /* Academic/Classic feel */
+            background-color: var(--white);
+            color: var(--black);
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            border-bottom: 5px solid var(--black);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 10px 0;
+        }
+
+        /* Progress Bar */
+        #progress-wrapper {
+            position: sticky;
+            top: 0;
+            background: var(--white);
+            padding: 10px 0;
+            border-bottom: 2px solid var(--black);
+            z-index: 1000;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 20px;
+            border: 2px solid var(--black);
+            background: var(--white);
+        }
+
+        #progress-fill {
+            height: 100%;
+            width: 0%;
+            background: var(--black);
+            transition: width 0.3s ease;
+        }
+
+        #progress-text {
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* Section Titles */
+        .part-header {
+            background: var(--black);
+            color: var(--white);
+            padding: 10px;
+            margin: 40px 0 10px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Chapters */
+        details {
+            border: 1px solid var(--black);
+            margin-bottom: -1px; /* Overlap borders */
+        }
+
+        summary {
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        summary:hover {
+            background: var(--gray);
+        }
+
+        .chapter-check {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 20px;
+            border-top: 1px solid var(--black);
+        }
+
+        .summary-box {
+            border-left: 5px solid var(--black);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Discussion Prompt (Per Section) */
+        .section-prompt {
+            border: 2px dashed var(--black);
+            padding: 20px;
+            margin: 20px 0 50px 0;
+            background-color: var(--white);
+        }
+
+        .section-prompt h4 {
+            margin: 0 0 10px 0;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        @media print {
+            #progress-wrapper { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="progress-wrapper">
+    <div class="container" style="padding: 10px 20px;">
+        <span id="progress-text">PROGRESS: 0%</span>
+        <div class="progress-container">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <header>
+        <h1>Reason in Revolt</h1>
+        <p>A Dialectical Materialist Guide to Science</p>
+    </header>
+
+    <!-- PART ONE -->
+    <div class="part-header">Part One: Reason and Unreason</div>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Introduction</summary>
+        <div class="content">
+            <div class="summary-box">Science is in a state of crisis because it lacks a consistent philosophical framework. Dialectical Materialism is the only tool that can unify modern scientific discoveries into a coherent whole.</div>
+            <ul>
+                <li>Philosophy is unavoidable; if you don't choose a conscious one, you will unconsciously adopt the "common sense" of the ruling class.</li>
+                <li>The authors argue that science is moving toward dialectics, even if scientists don't realize it yet.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Philosophy and Religion</summary>
+        <div class="content">
+            <div class="summary-box">Historical look at the battle between Materialism (the world is real) and Idealism (ideas/spirit come first).</div>
+            <ul>
+                <li>Idealism has its roots in religion and the division of society into thinkers (rulers) and doers (slaves).</li>
+                <li>Modern science still contains "mystical" elements left over from its religious ancestry.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Dialectical Materialism</summary>
+        <div class="content">
+            <div class="summary-box">Explaining the three laws of dialectics: Quantity into Quality, Unity of Opposites, and Negation of the Negation.</div>
+            <ul>
+                <li>Nature is not static; it is a process of constant change through internal contradiction.</li>
+                <li>Small changes accumulate until a "leap" occurs, creating a totally new state.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Formal Logic and Dialectics</summary>
+        <div class="content">
+            <div class="summary-box">A critique of Aristotelian logic (A = A). While useful for simple tasks, it cannot explain movement or evolution.</div>
+            <ul>
+                <li>Formal logic is the "logic of the fixed." Dialectics is the "logic of change."</li>
+                <li>To understand a thing, we must see it in its historical development and its environment.</li>
+            </ul>
+        </div>
+    </details>
+
+    <div class="section-prompt">
+        <h4>Section I Discussion</h4>
+        <p>How does the "Law of Quantity into Quality" challenge the idea that society or nature can only change through slow, gradual reforms? Apply this to a scientific and a social example.</p>
+    </div>
+
+    <!-- PART TWO -->
+    <div class="part-header">Part Two: Time, Space and Motion</div>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Revolution in Physics</summary>
+        <div class="content">
+            <div class="summary-box">The collapse of the old "Newtonian" mechanical worldview at the end of the 19th century.</div>
+            <ul>
+                <li>Matter was once thought to be solid and unchangeable atoms; physics now shows matter is a complex of motion.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Uncertainty and Idealism</summary>
+        <div class="content">
+            <div class="summary-box">Critiquing the idea that "we cannot know the real world" because of quantum uncertainty.</div>
+            <ul>
+                <li>The authors argue against the Copenhagen Interpretation which claims that an observer's consciousness creates reality.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Relativity Theory</summary>
+        <div class="content">
+            <div class="summary-box">Einstein's discovery that space and time are properties of matter, not independent "boxes" the universe sits in.</div>
+            <ul>
+                <li>Relativity is deeply dialectical as it shows the unity of opposites (mass and energy).</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Arrow of Time</summary>
+        <div class="content">
+            <div class="summary-box">Discussing why time moves in one direction and the role of entropy.</div>
+            <ul>
+                <li>Nature isn't just running down (entropy); it is also constantly building up more complex forms (evolution).</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Big Bang</summary>
+        <div class="content">
+            <div class="summary-box">The authors challenge the "standard model" of cosmology, arguing it leads back to a "Creation" myth.</div>
+            <ul>
+                <li>They argue for an infinite universe in both time and space, with no absolute beginning or end.</li>
+            </ul>
+        </div>
+    </details>
+
+    <div class="section-prompt">
+        <h4>Section II Discussion</h4>
+        <p>The authors argue that "Matter cannot be created or destroyed." If this is true, what does it imply about the Big Bang theory and the common religious idea of a "Prime Mover" or God?</p>
+    </div>
+
+    <!-- PART THREE -->
+    <div class="part-header">Part Three: Life, Mind and Matter</div>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Dialectics of Geology</summary>
+        <div class="content">
+            <div class="summary-box">The Earth's history is not just slow erosion, but sudden, violent shifts and transformations.</div>
+            <ul>
+                <li>Geological change mirrors the dialectical process of "leaps" followed by long periods of relative stability.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> How Life Arose</summary>
+        <div class="content">
+            <div class="summary-box">The transition from "dead" matter to "living" matter as a qualitative leap in chemistry.</div>
+            <ul>
+                <li>Life is a product of matter organizing itself into a higher degree of complexity under specific conditions.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Revolutionary Birth of Man</summary>
+        <div class="content">
+            <div class="summary-box">Expanding on Engels' theory that labor (using tools) created the human brain, not the other way around.</div>
+            <ul>
+                <li>The "Social" nature of humans is what allowed our biology to develop intelligence.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Genesis of Mind</summary>
+        <div class="content">
+            <div class="summary-box">Mind and consciousness are properties of organized matter (the brain), not a separate spiritual entity.</div>
+            <ul>
+                <li>Language is the "practical consciousness" that allowed humans to plan and transform their environment.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> Marxism and Darwinism</summary>
+        <div class="content">
+            <div class="summary-box">Defending Darwin's core discoveries while critiquing the 19th-century "gradualist" prejudices.</div>
+            <ul>
+                <li>Evolution works through "Punctuated Equilibrium"—long pauses broken by rapid change.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary><input type="checkbox" class="chapter-check"> The Selfish Gene?</summary>
+        <div class="content">
+            <div class="summary-box">A critique of biological reductionism (the idea that genes explain all human behavior).</div>
+            <ul>
+                <li>Human behavior is determined more by society and culture than by "selfish" genetic codes.</li>
+            </ul>
+        </div>
+    </details>
+
+    <div class="section-prompt">
+        <h4>Section III Discussion</h4>
+        <p>If human intelligence is a product of social labor, how does the current capitalist organization of labor (alienation) affect the development of the human mind and potential?</p>
+    </div>
+</div>
+
+<script>
+    const checkboxes = document.querySelectorAll('.chapter-check');
+    const fill = document.getElementById('progress-fill');
+    const text = document.getElementById('progress-text');
+
+    function updateProgress() {
+        const total = checkboxes.length;
+        const checked = Array.from(checkboxes).filter(c => c.checked).length;
+        const percent = Math.round((checked / total) * 100);
+        
+        fill.style.width = percent + '%';
+        text.innerText = 'PROGRESS: ' + percent + '%';
+
+        const state = Array.from(checkboxes).map(c => c.checked);
+        localStorage.setItem('reasonInRevoltBW', JSON.stringify(state));
+    }
+
+    checkboxes.forEach(box => {
+        box.addEventListener('change', updateProgress);
+        box.addEventListener('click', (e) => e.stopPropagation());
+    });
+
+    window.onload = () => {
+        const saved = JSON.parse(localStorage.getItem('reasonInRevoltBW'));
+        if (saved) {
+            saved.forEach((val, i) => {
+                if (checkboxes[i]) checkboxes[i].checked = val;
+            });
+            updateProgress();
+        }
+    }
+</script>
+
+</body>
+</html>
